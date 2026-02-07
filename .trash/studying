@@ -1,0 +1,25 @@
+### Suggestions for a candidate
+- [ ] Study advanced PHP features such as `array_pad`, `array_all`, `match` and others to stay updated with the latest language improvements.
+    - [X] Theory
+        - array_pad creates more indexes on a array in order for it to have the given size. The value of the new indexes can be specified too
+        - array_all test all the array data in order to understand of all of the itens match the operation coded into a given callback
+        - match is like switch but has a diferent sintax
+    - [ ] Pratice some
+- [ ] Deepen knowledge of design patterns beyond MVC, such as Factory, Singleton, and Strategy, to enhance system design skills.
+    - [ ] Theory
+    - [ ] Pratice some
+- [ ] Gain hands-on experience with NoSQL databases like MongoDB to broaden database management skills.
+    - [ ] Theory
+    - [ ] Pratice some
+- [ ] Familiarize yourself with HTTP methods like PATCH and their best practices to enhance API development skills.
+    - [X] Theory
+    - [ ] Pratice some
+- [ ] Review and practice the SOLID principles to strengthen object-oriented programming practices.
+    - [ ] Theory
+    - [ ] Pratice some
+- [ ] Explore alternatives for debugging and profiling in PHP no matter the IDE.
+    - [ ] Theory
+    - [ ] Pratice some
+- [ ] Study about the ReflectionClass in PHP and how we can use it efficiently.
+    - [X] Theory
+    - [ ] Pratice some
