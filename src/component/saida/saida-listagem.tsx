@@ -4,13 +4,18 @@ type SaidaListagemPropos = {
     saidaList?: SaidaResponse[]
 }
 
-export function SaidaListagem({ saidaList }: SaidaListagemPropos) {
+export function SaidaListagem({ saidaList }: Readonly<SaidaListagemPropos>) {
     return <table>
         <thead>
-            <th>#</th>
-            <th>Nome</th>
-            <th>Valor</th>
-            <th>Data</th>
+            <tr>
+                <th colSpan={4}>Compra</th>
+            </tr>
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Data</th>
+            </tr>
         </thead>
         <tbody>
             {(saidaList ?? []).map((saida) => {

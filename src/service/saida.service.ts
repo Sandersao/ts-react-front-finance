@@ -21,8 +21,8 @@ export class SaidaService {
     public async read(): Promise<SaidaResponse[]> {
         return mockSaidaResponseList()
     }
-    public create(request: SaidaCreateRequest) {
-        return request
+    public async create(request: SaidaCreateRequest): Promise<SaidaResponse> {
+        return mockSaidaResponse(1, request.name, request.value, new Date());
     }
 
     public update(request: SaidaUpdateRequest) {

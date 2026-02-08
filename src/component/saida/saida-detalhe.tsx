@@ -2,7 +2,7 @@ import type { SaidaResponse } from "../../interface/saida.interface";
 
 type SairDetalheParam = {saida: SaidaResponse, title?: string}
 
-export function SaidaDetalhe({saida, title}: SairDetalheParam) {
+export function SaidaDetalhe({saida, title}: Readonly<SairDetalheParam>) {
     title ??= 'Saída'
     return <table>
         <thead>

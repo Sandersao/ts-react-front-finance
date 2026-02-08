@@ -1,0 +1,10 @@
+input[type="number"].reset {
+  appearance: textfield;
+  -moz-appearance: textfield;
+
+  all: unset;
+  box-sizing: border-box;
+
+  width: 100%;
+  min-width: 0;
+}
